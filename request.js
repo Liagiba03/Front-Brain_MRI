@@ -38,7 +38,7 @@ const cargarImagenes = async (mensaje) => {
 
 const obtenerImagen = async () => {
     try {
-        const response = await fetch(`http://127.0.0.1:5000/get_images`, {
+        const response = await fetch(`https://brain-api-v1.onrender.com/get_images`, {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json"
